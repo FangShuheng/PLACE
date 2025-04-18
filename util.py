@@ -68,16 +68,13 @@ def get_act_layer(act_type: str):
 
 
 def jaccard_similarity(set1, set2):
-    """计算两个集合的 Jaccard 相似度"""
     intersection = len(set1.intersection(set2))
     union = len(set1.union(set2))
     return intersection / union
 
 def cosine_similarity(vec1, vec2):
-    """计算两个向量的余弦相似度"""
     return np.dot(vec1, vec2) / (np.linalg.norm(vec1) * np.linalg.norm(vec2))
 
 def dice_coefficient(set1, set2):
-    """计算两个集合的 Dice 系数"""
     intersection = len(set1.intersection(set2))
     return 2 * intersection / (len(set1) + len(set2))
