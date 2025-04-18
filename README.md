@@ -22,7 +22,7 @@ conda activate PLACE
 
 
 ### Quick Start
-Running Twitter
+Running cornell
 ```
 python main.py    \
        --data_set cornell
