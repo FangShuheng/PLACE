@@ -64,4 +64,10 @@ The orkut datasets are from [SNAP] (https://snap.stanford.edu/data/com-Orkut.htm
 Open an issue or send email to fangshuheng@gmail.com if you have any problem
 
 ### Cite Us
+@article{fang2025place,
+  title={PLACE: Prompt Learning for Attributed Community Search},
+  author={Fang, Shuheng and Zhao, Kangfei and Zhang, Rener and Rong, Yu and Yu, Jeffrey Xu},
+  journal={arXiv preprint arXiv:2507.05311},
+  year={2025}
+}
 
